@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .gallery{
+        margin: 0 auto;
+        width: 1500px;
+        border-top: 1px solid #F29E65;
+    }    
+
+        .image{
+            width: 335px;
+            margin: 20px;
+            box-shadow: 5px 5px #F29E65;
+        }
+
+        h1, input, button{
+            margin-left: 10px;
+        }
+
+        button{
+            border-radius: 20px;
+            background: linear-gradient(to right, #F29E65,white);
+            border: none;
+            padding: 10px 20px 10px 20px;
+            color: black;
+            font-size: 10px;
+        }
+
+        input{
+            border: 5px solid #F29E65;
+            padding: 5px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        input::placeholder {
+            color: black;
+            font-size: 10px;
+        }
+
+        input:focus {
+            outline-color: white;
+        }
+
+        h1{
+            background: linear-gradient(#F29E65,white);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding: 10px;
+            font-size: 100px;
+            text-align: center;
+        }
